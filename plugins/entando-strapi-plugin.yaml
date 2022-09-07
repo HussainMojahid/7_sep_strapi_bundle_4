@@ -1,0 +1,7 @@
+image: hussainnv/strapi-test_7sep:4.0.0
+dbms: postgresql
+deploymentBaseName: "strapi-hussain"
+ingressPath: "/entando-strapi-api"
+healthCheckPath: "/api/health"
+roles:
+  - "admin"
